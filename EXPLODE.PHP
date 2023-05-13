@@ -4,9 +4,9 @@
 
 // Example 1 : 
 
-$ADSOYAD = "Ahmet Faruk TUNÇ";
+$namesurname = "Ahmet Faruk TUNÇ";
 
-$newarray = explode(" ",$ADSOYAD);
+$newarray = explode(" ",$namesurname);
 echo "<pre>";
 print_r($newarray);
 echo "</pre>";
