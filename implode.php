@@ -30,8 +30,6 @@
     echo $text."<br/>"; #1,2,3,4,5,6,
 
     $text = implode(" is number<br/>",$numbers);
-
-    echo $text."<br/>"; 
     
     #1 is number
     #2 is number
@@ -39,6 +37,10 @@
     #4 is number
     #5 is number
     #6 is number
+
+    echo $text."<br/>"; 
+    
+    
     
     
 
