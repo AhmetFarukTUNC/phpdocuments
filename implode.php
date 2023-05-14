@@ -13,25 +13,34 @@
 
     echo "<pre>";
 
-    print_r($numbers);
+    print_r($numbers); 
 
     echo "</pre>";
 
     $text = implode($numbers);
 
-    echo $text."<br/>";
+    echo $text."<br/>";#123456
 
     $text = implode(" ",$numbers);
 
-    echo $text."<br/>";
+    echo $text."<br/>"; #1 2 3 4 5 6 
 
     $text = implode(",",$numbers);
 
-    echo $text."<br/>";
+    echo $text."<br/>"; #1,2,3,4,5,6,
 
     $text = implode(" is number<br/>",$numbers);
 
-    echo $text."<br/>";
+    echo $text."<br/>"; 
+    
+    #1 is number
+    #2 is number
+    #3 is number
+    #4 is number
+    #5 is number
+    #6 is number
+    
+    
 
     ?>
 </body>
